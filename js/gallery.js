@@ -63,3 +63,6 @@ const images = [
     description: "Lighthouse Coast Sea",
   },
 ];
+const gallery = document.querySelector(".gallery");
+//when click=big picture
+gallery.addEventListener("click", selectBigImage);
